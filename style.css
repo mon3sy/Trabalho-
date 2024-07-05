@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Roboto+Mono&display=swap');
+
+:root{
+    --branco: rgb(255, 255, 255);
+    --cor-de-fundo: hwb(142 13% 31%);
+    --cor-do-texto: hwb(28 13% 31%);
+    --fundo-texto: #ebce3a;
+    --fundo-texto2: #753aeb;
+    --borda: #bc9a4b;
+    --roboto: 'Roboto', sans-serif;
+    --roboto-mono: 'Roboto Mono', monospace;
+}
+    
+body{
+    color: var(--cor-do-texto); 
+    background-color: var(--cor-de-fundo);
+    font-family: var(--roboto-mono);
+}
+
+
+.titulo-principal{
+    background-color: var(--fundo-texto);
+    font-size: 32px;
+}
+
+.titulo-secundario{
+    font-size: 24px;
+    background-color: var(--fundo-texto);
+}
+
+.checkbox{
+    color: aqua;
+    background-color: var(--fundo-texto2);
+    margin-top: 12px;
+    padding: 10px;
+}
